@@ -8,7 +8,7 @@ from transformers.optimization import AdamW
 from torch.optim import Adam
 from peft import get_peft_model, LoraConfig, TaskType, get_peft_model_state_dict
 import pyarrow as pa
-from model_ours import Encoder
+from model import Encoder
 from collections import OrderedDict
 import re
 from dataclasses import dataclass, field
