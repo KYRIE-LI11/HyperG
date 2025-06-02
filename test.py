@@ -19,7 +19,7 @@ from data_utils import clean_cell_value
 from data import BipartiteData
 from collections import OrderedDict
 import re
-from model_ours import Encoder
+from model import Encoder
 from torch_geometric.data.batch import Batch
 import random
 from tqdm import tqdm
